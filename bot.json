@@ -1,0 +1,71 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Welcome to the HealthHelper!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later,take care!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["I", "have", "fever"],
+      "bot_response": "You should book an appointment with Dr.Elizabeth, the cause behind your fever can be anything",
+      "required_words": ["fever", "have"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for appointments.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["I", "have", "leg", "pain"],
+      "bot_response": "If it is unbearable then please visit the hospital or else take any pain killer prescribed by you doctor previously",
+      "required_words": ["have","leg", "pain"] 
+    },
+
+    {
+        "response_type": "greeting",
+        "user_input": ["I", "have", "a", "skin", "problem", "I", "need", "a", "dermatologist."],
+        "bot_response": "I suggest you consult Dr. Sarah Miller. She is a dermatologist and specializes in skin-related issues. You can book an appointment with her to discuss your skin problem.",
+        "required_words": ["suggest", "dermatologist"]
+      
+    },
+
+    {
+      "response_type": "question",
+      "user_input": ["I", "have", "a", "fever", "What" ,"should", "I", "do" ,"for", "a", "fever?"],
+      "bot_response": "I'm not a doctor, but here's a general recommendation for fever: Rest, drink plenty of fluids, and take over-the-counter fever-reducing medication like acetaminophen or ibuprofen. However, it's important to consult a doctor for a proper diagnosis and treatment.",
+      "required_words": ["fever", "remedy"]
+    },
+
+    {
+      "response_type": "question",
+      "user_input": ["Is", "Dr.", "John", "available", "today", "What", "are", "the", "working", "hours", "of", "Dr.", "Smith?"],
+      "bot_response": "I can help you with that. Dr. John is available today from 10:00 AM to 6:00 PM. Dr. Smith's working hours are from 9:00 AM to 5:00 PM, Monday to Friday.",
+      "required_words": ["doctor", "today"]
+    },
+
+    {
+      "response_type": "question",
+      "user_input": ["Is", "Dr.", "available", "today", "What", "are", "the", "counselling", "fees", "of", "Dr.", "Smith?"],
+      "bot_response": "The counselling fee 1k",
+      "required_words": ["counselling", "fees"]
+
+    }
+    
+    
+    
+  ]
